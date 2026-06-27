@@ -1,0 +1,177 @@
+/* Estilo de Dreamcatcher: Las Reinas del Rock en el K-pop */
+/* La pagina tiene un estilo elegante, minimalista y al estilo de dreamcatcher */
+
+body {
+    background-image: url('./images/a.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #121212;
+    color: rgb(239, 242, 245);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #9d4edd;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.contenedor-bloque {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1300px;
+    margin: 40px auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* --- COLUMNA IZQUIERDA: TEXTO Y TABLA --- */
+.columna-texto {
+    flex: 1 1 55%;
+    min-width: 320px;
+}
+
+/* --- COLUMNA DERECHA: IMÁGENES Y LINKS --- */
+.contenedor-imagen {
+    flex: 1 1 38%;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* --- CONFIGURACIÓN DE TÍTULOS --- */
+h2,
+h3 {
+    color: aliceblue;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border-left: 4px solid #9d4edd;
+    padding-left: 12px;
+}
+
+.contenedor-imagen h2 {
+    align-self: flex-start;
+    width: 100%;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: rgb(239, 242, 245);
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* --- TABLA DE CANCIONES (Estilo minimalista oscuro) --- */
+table {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #1f1f1f;
+    border: 1px solid #3d3d3d;
+    color: #ffffff;
+    border-radius: 10px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+th {
+    background-color: #2d2d2d;
+    color: #9d4edd;
+    font-weight: 600;
+}
+
+tr:hover {
+    background-color: #252525;
+}
+
+/* --- IMÁGENES RESPONSIVAS --- */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.15);
+}
+
+/* --- LISTA DE ENLACES --- */
+ul {
+    width: 100%;
+    max-width: 610px;
+    box-sizing: border-box;
+    padding: 20px 30px 20px 45px;
+    background-color: #1f1f1f;
+    border: 1px solid #3d3d3d;
+    color: #ffffff;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+/* --- ENLACES EN GENERAL --- */
+a {
+    color: #c77dff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e0aaff;
+}
+
+/* --- PIE DE PÁGINA --- */
+footer {
+    background-color: #121212;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #2d2d2d;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
