@@ -1,5 +1,5 @@
-/* Estilo de Dreamcatcher: Las Reinas del Rock en el K-pop */
-/* La pagina tiene un estilo elegante, minimalista y al estilo de dreamcatcher */
+/*Evaluación Preliminar Desarrollo Web*/
+/*ALUMNO: JULCAMORO PAIRAZAMAN, RICK GREEG*/
 
 body {
     background-image: url('./images/a.png');
@@ -80,7 +80,7 @@ p {
     margin-bottom: 20px;
 }
 
-/* --- TABLA DE CANCIONES (Estilo minimalista oscuro) --- */
+/* --- TABLA DE CANCIONES --- */
 table {
     width: 100%;
     margin-top: 20px;
